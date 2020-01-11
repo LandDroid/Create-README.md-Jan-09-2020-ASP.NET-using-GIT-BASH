@@ -1,0 +1,33 @@
+Step 1-   Install Git following these instructions: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+Step 2-   Configure command line credentials: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+Once installed, using command line from Git Bash Terminal:
+
+Step 3-   Create a folder in your directory of choice: mkdir <foldername>
+          (DO NOT USE the <> before and after filename you are creating.)
+ 
+Step 4-   Navigate to the newly created folder: cd /path/<foldername>
+          (Again DO NOT USE the <> before and after your filename.)
+        
+Step 5-   To create a local git repository type in terminal: git init
+
+Step 6-   To create a README file type in terminal: touch README.md
+
+Step 7-   Editing your newly created README.md file type in terminal: nano README.md
+          (This will take your README.md file editor. Write whatever you'd like. Remember to save and exit.)
+        
+Step 8-   To check status of your git repository type in terminal: git status
+
+Step 9-   To Add files to your git repository type in terminal: git add <filename>
+          (Again DO NOT USE the <> before and after your filename.)
+        
+Step 10-  To checkout files and add a checkout message type in terminal: git commit –m “My first commit!”
+
+Step 11-  To Add a remote repository type in terminal: git remote add origin <repository link>
+          (The repository link is on your GitHub account where you created a repository for this README.md file on GitHub under
+          whatever name your created for your repository, also remember DO NOT USE the <> before and after your url link.)
+          
+Step 12-  To Push changes to your GitHub repository type in terminal: git push –u origin master
+
+And your done!
